@@ -18,7 +18,8 @@ Route::get('/', function()
 
 Route::get('users', function()
 {
-    return 'Users!';
+	$users = User::all();
+   return 'Users!';
 });
 
 Route::get('hello-world', function ()
