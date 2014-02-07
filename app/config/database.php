@@ -85,11 +85,11 @@ return array(
 
     'mongodb' => array(
       'driver'   => 'mongodb',
-      'host'     => 'ds027419.mongolab.com:27419/sidejobinvoicing',
-      'port'     => 27017,
+      'host'     => 'ds027419.mongolab.com',
+      'port'     => 27419,
       'username' => 'sji_dbuser',
       'password' => 'INln9893',
-      'database' => 'database'
+      'database' => 'sidejobinvoicing'
     ),
   ),
 

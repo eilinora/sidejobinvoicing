@@ -26,3 +26,8 @@ Route::get('hello-world', function ()
 {
   return View::make('anotherpage');
 });
+
+Route::get('php-test', function ()
+{
+	return View::make('phptest');
+});
